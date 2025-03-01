@@ -4,47 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benjie Plaza</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: left;
-            margin: 20px;
-        }
-        h1 {
-            font-size: 24px;
-        }
-        h2 {
-            font-size: 18px;
-        }
-        a {
-            text-decoration: none;
-            color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <img src="profile.png" alt="Profile Image" width="100">
-    
-    <h1>Benjie Plaza</h1>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">
+            <img src="profile.png" alt="Logo">
+            <h1>Benjie Plaza</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <ul>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-    </ul>
+    <!-- Main Section -->
+    <main>
+        <h2>Hello! I am a text with the largest heading</h2>
+        <div class="content">
+            <div class="card">I am division with id equal to about</div>
+            <div class="card">I am division with id equal to education</div>
+            <div class="card">I am division with id equal to skills</div>
+            <div class="card">I am division with id equal to portfolio</div>
+            <div class="card">I am division with id equal to contact</div>
+        </div>
+    </main>
 
-    <h2>Hello! I am a text with the largest heading</h2>
-
-    <p id="about">I am a division with id equal to about</p>
-    <p id="education">I am a division with id equal to education</p>
-    <p id="skills">I am a division with id equal to skills</p>
-    <p id="portfolio">I am a division with id equal to portfolio</p>
-    <p id="contact">I am a division with id equal to contact</p>
-
+    <!-- Footer -->
     <footer>
-        <p>I am the footer, the last section of this page</p>
+        <p><strong>I am the footer, the last section of this page</strong></p>
     </footer>
 
 </body>
